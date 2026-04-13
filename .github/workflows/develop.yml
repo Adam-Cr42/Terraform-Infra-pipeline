@@ -16,5 +16,5 @@ jobs:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::585008039720:role/github-actions-Adam-Cr42-pipeline"
       aws-region: "sa-east-1"
-      aws-statefile-s3-bucket: "{{ adam-cr42-sa-east-1-terraform-statefile }}"
-      aws-lock-dynamodb-table: "{{ adam-cr42-sa-east-1-terraform-lock }}"
+      aws-statefile-s3-bucket: "adam-cr42-sa-east-1-terraform-statefile"
+      aws-lock-dynamodb-table: "adam-cr42-sa-east-1-terraform-lock"
